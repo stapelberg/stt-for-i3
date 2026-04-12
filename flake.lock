@@ -1,0 +1,65 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1775811116,
+        "narHash": "sha256-t+HZK42pB6N+i5RGbuy7Xluez/VvWbembBdvzsc23Ss=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "54170c54449ea4d6725efd30d719c5e505f1c10e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-25.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs-unstable": {
+      "locked": {
+        "lastModified": 1775888245,
+        "narHash": "sha256-nwASzrRDD1JBEu/o8ekKYEXm/oJW6EMCzCRdrwcLe90=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "13043924aaa7375ce482ebe2494338e058282925",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "nixpkgs-unstable": "nixpkgs-unstable",
+        "stapelbergnix": "stapelbergnix"
+      }
+    },
+    "stapelbergnix": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1775297261,
+        "narHash": "sha256-tsKH0uGe/Ml3zQA11Q0AC12IWuHsxje6g6lz7BWBqZQ=",
+        "owner": "stapelberg",
+        "repo": "nix",
+        "rev": "ae841f62eb2974a994b4c73950372e9ab2acca6a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "stapelberg",
+        "repo": "nix",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
